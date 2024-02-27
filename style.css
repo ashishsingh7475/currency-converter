@@ -1,0 +1,83 @@
+*{
+   padding:0% 
+}
+body{
+    display:flex;
+    justify-content:center;
+    margin-top:30vh;
+    background-color:coral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container{
+    background-color:beige;
+    padding:1rem;
+    border-radius:1rem;
+    width:40vh;
+}
+form select ,button {
+    width:100%;
+    padding:5px;
+    border:none;
+    outline:none;
+    background-color:transparent;
+}
+input{
+    width:98%;
+    padding:5px;
+    border:none;
+    outline:none;
+    background-color:transparent;
+}
+.dropdowns{
+   
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.selectTo{
+    margin-right:50px;
+}
+#amtVal{
+    border:1px solid gray;
+    border-radius:5px;
+    min-height:2rem;
+    font-size:1rem;
+}
+button{
+    background-color:blueviolet;
+    color:white;
+    border-radius:5px;
+    min-height:3rem;
+}
+button:hover{
+    background-color:darkmagenta;
+    cursor:pointer;
+}
+.select-container{
+    margin-top:4rem;
+    margin-left:-8rem;
+    border:1px solid gray;
+    border-radius:5px;
+    display:flex;
+}
+i{
+    margin-top:4rem;
+}
+img{
+max-width:1.75rem;
+}
+#msg{
+    margin-top:3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:5px;
+    background-color:rgba(239, 73, 12, 0.77);
+    padding:5px;
+    color:white;
+}
+#toTxt{
+   margin-right:15px;
+}
+
+    
